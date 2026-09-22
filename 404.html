@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Halloween Party</title>
+<meta name="theme-color" content="#0b0712">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎃%3C/text%3E%3C/svg%3E">
+<style>
+  body{margin:0;min-height:100vh;display:grid;place-items:center;text-align:center;padding:1.5rem;background:#0b0712 radial-gradient(900px 500px at 50% -10%,rgba(96,40,150,.4),transparent 70%);color:#f3ead9;font-family:'Segoe UI',system-ui,sans-serif;font-size:1.15rem;line-height:1.5}
+  .box{max-width:30rem}
+  .icon{font-size:4rem;animation:bob 2.4s ease-in-out infinite}
+  h1{font-family:Impact,'Arial Black',sans-serif;font-weight:400;font-size:2.2rem;color:#ff7a1a;margin:.4rem 0 .6rem;letter-spacing:.03em}
+  p{margin:.4rem 0;color:#cfc3e0}
+  button{margin-top:1.2rem;font:inherit;font-weight:700;padding:.7rem 1.6rem;border:0;border-radius:999px;background:linear-gradient(180deg,#ffab4d,#ff7a1a);color:#1a0b00;cursor:pointer}
+  @keyframes bob{50%{transform:translateY(-8px)}}
+  @media (prefers-reduced-motion:reduce){.icon{animation:none}}
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="icon" aria-hidden="true">🎃</div>
+  <h1 id="title">Einen Moment …</h1>
+  <p id="text">Die Party-Seite wird geöffnet.</p>
+  <button id="retry" type="button" hidden>Erneut versuchen</button>
+</div>
+<script>window.HW_KEEP_PATH = true;</script>
+<script src="config.js"></script>
+<script src="redirect.js"></script>
+</body>
+</html>
