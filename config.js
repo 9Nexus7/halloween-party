@@ -3,7 +3,7 @@
 window.HW_REDIRECT = {
   // FALLBACK: wird benutzt, wenn unten kein Gist eingetragen ist oder der Gist
   // gerade nicht erreichbar ist. Ohne / am Ende.
-  TARGET: 'https://seo-contests-characterized-program.trycloudflare.com',
+  TARGET: 'https://ton-babies-drilling-guarantee.trycloudflare.com',
 
   // AUTOMATISCH (empfohlen): Rohdaten-Adresse deines Gists.
   // Format: https://gist.githubusercontent.com/DEINNAME/GIST-ID/raw/url.txt
